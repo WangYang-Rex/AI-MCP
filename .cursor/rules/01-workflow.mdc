@@ -1,0 +1,18 @@
+---
+description: Development workflow
+alwaysApply: true
+---
+
+# AI Development Workflow
+
+Before writing code follow this process:
+
+1. Understand the problem.
+2. Search the repository for related code.
+3. Identify existing patterns.
+4. Propose a plan.
+5. Implement the solution.
+
+Do not skip the planning phase.
+
+Prefer small incremental changes.

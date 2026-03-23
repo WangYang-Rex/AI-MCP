@@ -1,0 +1,24 @@
+---
+description: Testing rules
+---
+
+# Testing Rules
+
+All business logic should be testable.
+
+Test structure:
+
+- unit tests
+- integration tests
+
+Rules:
+
+- Mock external dependencies
+- Test services instead of controllers
+- Keep tests deterministic
+
+Example test cases:
+
+- success case
+- failure case
+- edge cases

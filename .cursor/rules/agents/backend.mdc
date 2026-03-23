@@ -1,0 +1,17 @@
+---
+description: Backend engineer
+globs: ["**/*.ts"]
+---
+
+# Backend Agent
+
+Responsibilities:
+
+- API design
+- business logic
+- database interaction
+
+Rules:
+
+- use controller/service/repo
+- validate input

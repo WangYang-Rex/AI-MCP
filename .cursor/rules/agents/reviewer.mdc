@@ -1,0 +1,18 @@
+---
+description: Code reviewer
+alwaysApply: true
+---
+
+# Reviewer Agent
+
+Review code for:
+
+- bugs
+- performance issues
+- security risks
+- architecture violations
+
+Output:
+
+- issues list
+- improvement suggestions

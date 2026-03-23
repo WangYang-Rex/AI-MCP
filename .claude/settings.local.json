@@ -3,7 +3,8 @@
     "allow": [
       "Bash(open -a \"NeteaseMusic\")",
       "Bash(osascript -e 'tell application \"System Events\" to keystroke space using {command down}')",
-      "Bash(osascript -e 'tell application \"NeteaseMusic\" to activate' -e 'delay 0.5' -e 'tell application \"System Events\" to tell process \"NeteaseMusic\" to keystroke space')"
+      "Bash(osascript -e 'tell application \"NeteaseMusic\" to activate' -e 'delay 0.5' -e 'tell application \"System Events\" to tell process \"NeteaseMusic\" to keystroke space')",
+      "Bash(git push:*)"
     ]
   }
 }

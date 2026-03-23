@@ -1,0 +1,19 @@
+---
+description: Security rules
+---
+
+# Security Rules
+
+Never trust user input.
+
+Always:
+
+- validate input
+- sanitize data
+
+Avoid:
+
+- SQL injection
+- exposing sensitive information
+
+Do not log secrets.

@@ -1,0 +1,18 @@
+---
+description: Codebase navigation rules
+alwaysApply: true
+---
+
+# Code Navigation
+
+Before implementing new functionality:
+
+1. Search the repository for similar logic.
+2. Reuse existing utilities.
+3. Avoid duplicating code.
+
+If a utility already exists:
+Use it instead of writing new code.
+
+If unsure where something lives:
+Search the codebase first.

@@ -1,0 +1,21 @@
+---
+description: Performance rules
+---
+
+# Performance Rules
+
+Avoid unnecessary computation.
+
+Guidelines:
+
+- Use memoization when appropriate
+- Avoid repeated API calls
+- Cache expensive operations
+
+Frontend:
+
+Avoid unnecessary React re-renders.
+
+Backend:
+
+Avoid N+1 queries.

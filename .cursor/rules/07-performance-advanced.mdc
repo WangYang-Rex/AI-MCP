@@ -1,0 +1,23 @@
+---
+description: Advanced performance rules
+---
+
+# Performance Optimization
+
+Before optimizing:
+
+- confirm performance issue exists
+
+Frontend:
+
+- avoid unnecessary renders
+- use memoization
+- lazy load components
+
+Backend:
+
+- avoid N+1 queries
+- batch database calls
+- cache repeated queries
+
+Do not optimize prematurely.

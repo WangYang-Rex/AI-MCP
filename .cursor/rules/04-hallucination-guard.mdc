@@ -1,0 +1,28 @@
+---
+description: Prevent hallucination
+alwaysApply: true
+---
+
+# Hallucination Guard
+
+Never invent APIs, functions, or data structures.
+
+Before using anything:
+
+1. Verify it exists in the codebase
+2. Or verify it was explicitly provided
+
+If not found:
+
+- Ask the user
+- Or clearly state assumptions
+
+Do NOT:
+
+- guess API signatures
+- fabricate libraries
+- assume database schema
+
+Always prefer:
+
+"I could not find this in the repository"

@@ -1,0 +1,26 @@
+---
+description: Git commit conventions
+---
+
+# Git Commit Rules
+
+Use conventional commits.
+
+Format:
+
+type(scope): message
+
+Examples:
+
+feat(auth): add login endpoint
+fix(api): handle null response
+refactor(user): simplify user service
+
+Types:
+
+- feat
+- fix
+- refactor
+- test
+- docs
+- chore

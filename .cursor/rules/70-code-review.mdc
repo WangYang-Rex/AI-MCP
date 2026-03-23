@@ -1,0 +1,20 @@
+---
+description: Code review rules
+alwaysApply: true
+---
+
+# Code Review Checklist
+
+After writing code review it for:
+
+1. correctness
+2. edge cases
+3. performance
+4. security
+5. readability
+6. architecture consistency
+
+If issues found:
+
+- list them
+- propose improvements

@@ -1,0 +1,24 @@
+---
+description: Refactoring rules
+alwaysApply: true
+---
+
+# Refactoring Rules
+
+Refactor only when necessary.
+
+Goals:
+
+- improve readability
+- reduce duplication
+- simplify logic
+
+Rules:
+
+- do not change behavior
+- do not refactor unrelated code
+- keep changes minimal
+
+Prefer:
+
+small incremental refactors

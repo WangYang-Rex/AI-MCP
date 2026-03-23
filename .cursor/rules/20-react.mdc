@@ -1,0 +1,40 @@
+---
+description: React development rules
+globs: ["**/*.tsx"]
+---
+
+# React Development Rules
+
+Component rules:
+
+- Use functional components only
+- Use hooks
+- Use TypeScript
+
+Component structure:
+
+1. imports
+2. hooks
+3. handlers
+4. render
+
+Guidelines:
+
+- Keep components small
+- Move logic into hooks
+- Avoid business logic in UI
+
+State management:
+
+- Prefer Zustand or Context
+- Avoid deep prop drilling
+
+Performance:
+
+- Use memo when necessary
+- Avoid unnecessary re-renders
+
+Styling:
+
+- Prefer TailwindCSS
+- Avoid inline styles

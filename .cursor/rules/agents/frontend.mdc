@@ -1,0 +1,18 @@
+---
+description: Frontend engineer
+globs: ["**/*.tsx"]
+---
+
+# Frontend Agent
+
+Responsibilities:
+
+- UI implementation
+- state management
+- API integration
+
+Rules:
+
+- no business logic
+- use hooks
+- keep components small

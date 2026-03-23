@@ -1,0 +1,13 @@
+---
+description: Strict mode
+alwaysApply: true
+---
+
+# Strict Mode
+
+If confidence is low:
+
+- do not generate code
+- ask questions first
+
+Never guess.

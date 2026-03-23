@@ -1,0 +1,48 @@
+---
+description: Project architecture rules
+alwaysApply: true
+---
+
+# Architecture First
+
+Before implementing:
+
+1. Identify affected layers
+2. Ensure separation of concerns
+3. Follow existing architecture
+
+# Project Architecture
+
+Keep layers clear and single-purpose. If the design is unclear, propose architecture before coding.
+
+Follow these architecture principles.
+
+Frontend structure:
+
+- components/
+- pages/
+- hooks/
+- services/
+- utils/
+- types/
+
+Backend structure:
+
+- controllers/
+- services/
+- repositories/
+- models/
+- utils/
+
+Rules:
+
+1. Business logic must live in services.
+2. Controllers should only handle request/response.
+3. Avoid putting logic inside React components.
+4. Utilities must remain stateless.
+
+Never mix layers.
+
+If design is unclear:
+
+Propose architecture before coding.

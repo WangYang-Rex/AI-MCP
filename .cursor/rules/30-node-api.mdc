@@ -1,0 +1,30 @@
+---
+description: Node backend API rules
+globs: ["**/*.ts"]
+---
+
+# Backend API Rules
+
+Follow a layered architecture.
+
+Controller responsibilities:
+
+- Receive requests
+- Validate input
+- Call services
+- Return responses
+
+Service responsibilities:
+
+- Business logic
+- Data orchestration
+
+Repository responsibilities:
+
+- Database queries only
+
+API rules:
+
+- Use async/await
+- Never expose raw database errors
+- Always validate input

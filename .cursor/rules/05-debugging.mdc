@@ -1,0 +1,24 @@
+---
+description: Debugging rules
+alwaysApply: true
+---
+
+# Debugging Rules
+
+When debugging:
+
+1. Reproduce the issue
+2. Identify where it occurs
+3. Trace the data flow
+4. Find root cause
+5. Fix the root cause (not symptoms)
+
+Do NOT:
+
+- blindly patch code
+- add random fixes
+
+Always explain:
+
+- why the issue happened
+- why the fix works

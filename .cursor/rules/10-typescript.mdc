@@ -1,0 +1,28 @@
+---
+description: TypeScript coding rules
+globs: ["**/*.ts", "**/*.tsx"]
+---
+
+# TypeScript Rules
+
+Always use strict TypeScript.
+
+Rules:
+
+- Avoid `any`
+- Prefer explicit types
+- Use interfaces for data structures
+- Use enums for constant groups
+
+Example:
+
+Correct:
+
+interface User {
+  id: string
+  name: string
+}
+
+Wrong:
+
+const user: any = {}
