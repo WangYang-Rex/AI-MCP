@@ -1,0 +1,28 @@
+---
+description: TypeScript 编码规则
+globs: ["**/*.ts", "**/*.tsx"]
+---
+
+# TypeScript 规则
+
+始终启用严格 TypeScript。
+
+规则：
+
+- 避免使用 `any`
+- 优先显式类型
+- 数据结构使用 interface
+- 常量分组使用 enum
+
+示例：
+
+正确：
+
+interface User {
+  id: string
+  name: string
+}
+
+错误：
+
+const user: any = {}

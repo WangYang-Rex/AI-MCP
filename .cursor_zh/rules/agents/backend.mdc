@@ -1,0 +1,17 @@
+---
+description: 后端工程师
+globs: ["**/*.ts"]
+---
+
+# 后端 Agent
+
+职责：
+
+- API 设计
+- 业务逻辑
+- 数据库交互
+
+规则：
+
+- 使用 controller / service / repository 分层
+- 校验输入

@@ -1,0 +1,26 @@
+---
+description: Git 提交约定
+---
+
+# Git 提交规则
+
+使用约定式提交（Conventional Commits）。
+
+格式：
+
+type(scope): 说明
+
+示例：
+
+feat(auth): 添加登录接口
+fix(api): 处理空响应
+refactor(user): 简化用户服务
+
+类型（type）：
+
+- feat
+- fix
+- refactor
+- test
+- docs
+- chore

@@ -1,0 +1,40 @@
+---
+description: React 开发规则
+globs: ["**/*.tsx"]
+---
+
+# React 开发规则
+
+组件规则：
+
+- 仅使用函数组件
+- 使用 hooks
+- 使用 TypeScript
+
+组件结构：
+
+1. imports
+2. hooks
+3. 事件处理函数
+4. render
+
+指引：
+
+- 保持组件小而专注
+- 将逻辑抽到 hooks
+- 避免在 UI 中写业务逻辑
+
+状态管理：
+
+- 优先 Zustand 或 Context
+- 避免过深的 props 层层传递
+
+性能：
+
+- 必要时使用 memo
+- 避免不必要的重渲染
+
+样式：
+
+- 优先 TailwindCSS
+- 避免行内样式
