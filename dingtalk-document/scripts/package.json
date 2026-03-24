@@ -1,0 +1,19 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "export": "node export-dingtalk-docs.mjs",
+    "export:kb": "node export-dingtalk-docs.mjs --kb-root",
+    "export:dry": "node export-dingtalk-docs.mjs --dry-run --verbose",
+    "recent": "node list-recent-changes.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  }
+}
