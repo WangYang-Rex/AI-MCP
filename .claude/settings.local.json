@@ -4,7 +4,9 @@
       "Bash(open -a \"NeteaseMusic\")",
       "Bash(osascript -e 'tell application \"System Events\" to keystroke space using {command down}')",
       "Bash(osascript -e 'tell application \"NeteaseMusic\" to activate' -e 'delay 0.5' -e 'tell application \"System Events\" to tell process \"NeteaseMusic\" to keystroke space')",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "WebSearch",
+      "Bash(curl -s \"https://www.ycbg.com/help-center.html?tab=1&id=641\" -o /tmp/helpcenter.html)"
     ]
   }
 }
