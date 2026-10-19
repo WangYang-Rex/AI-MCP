@@ -1,0 +1,6 @@
+interface:
+  display_name: "Java 本地验证"
+  short_description: "逐级验证 Maven Java 改动并给出可信结论"
+  default_prompt: "使用 $java-local-verify 验证当前 Java 项目的代码改动。"
+policy:
+  allow_implicit_invocation: false
